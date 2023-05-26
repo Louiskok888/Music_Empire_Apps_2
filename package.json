@@ -1,11 +1,13 @@
 {
-  "homepage": "http://louiskok888.github.io/Music-Empire-Apps",
+  "homepage": "http://louiskok888.github.io/Music_Empire_Apps_2",
   "name": "restaurant",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
