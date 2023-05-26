@@ -1,10 +1,13 @@
 {
+  "homepage": "http://louiskok888.github.io/Music-Empire-Apps",
   "name": "restaurant",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -25,6 +28,7 @@
   },
   "devDependencies": {
     "eslint": "8.4.1",
-    "eslint-config-next": "12.0.7"
+    "eslint-config-next": "12.0.7",
+    "gh-pages": "^5.0.0"
   }
 }
