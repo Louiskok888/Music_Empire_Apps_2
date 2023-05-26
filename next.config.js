@@ -6,7 +6,8 @@
 
 module.exports = {
   images: {
-    domains: ['res.cloudinary.com'],
+    loader: 'imgix',
+    path: '',
   },
   trailingSlash: true,
   assetPrefix: process.env.NODE_ENV === 'production' ? '/Music_Empire_Apps_2' : '',
