@@ -80,7 +80,7 @@ const Index = ({ orders, products }) => {
                     productImg: product.img,
                     productDesc: product.desc,
                   }
-                }}>                    
+                }} passHref>                    
                 <button
                       className={styles.button}
                       onClick={() => handleEdit(

@@ -13,7 +13,7 @@ const Events = () => {
           Tonight, we are here to celebrate the power of music and the talented
           performers who bring it to life. Whether you are a die-hard music fan
           or simply here to experience something new, I can assure you that
-          tonight's concert will be a night to remember. Music has the
+          tonights concert will be a night to remember. Music has the
           incredible ability to connect people from all walks of life and to
           evoke a range of emotions. It has the power to lift our spirits, move
           us to tears, and even transport us to another place and time. Tonight,
@@ -22,7 +22,7 @@ const Events = () => {
           moment to thank our sponsors for making this concert possible. Without
           their support, we would not be able to bring this incredible evening
           of music to you. And of course, a huge thank you to the performers
-          themselves for sharing their talents with us and making tonight's
+          themselves for sharing their talents with us and making tonights
           concert a reality. So sit back, relax, and get ready to be transported
           on a musical journey like no other. Once again, welcome to this
           amazing music concert, and enjoy the show!

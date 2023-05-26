@@ -20,19 +20,19 @@ const Navbar = () => {
           <Link href="/" passHref>
             <li className={styles.listItem}>Homepage</li>
           </Link>
-          <Link href="/musicproducts">
+          <Link href="/musicproducts" passHref>
             <li className={styles.listItem}>Products</li>
           </Link>
-          <Link href="/classes">
+          <Link href="/classes" passHref>
             <li className={styles.listItem}>Music Classes</li>
           </Link>
-          <Link href="/events">
+          <Link href="/events" passHref>
             <li className={styles.listItem}>Events</li>
           </Link>
-          <Link href="/exam">
+          <Link href="/exam" passHref>
             <li className={styles.listItem}>Exam Boards</li>
           </Link>
-          <Link href="/contact">
+          <Link href="/contact"passHref>
             <li className={styles.listItem}>Contact</li>
           </Link>
         </ul>

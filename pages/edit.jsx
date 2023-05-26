@@ -6,7 +6,7 @@ import styles from "../styles/edit.module.css";
 import { useState } from "react";
 import Link from "next/link";
 
-const edit = ({ pianoList }) => {
+const Edit = ({ pianoList }) => {
   const router = useRouter();
   const productId = router.query.productId;
   const productTitle = router.query.productTitle;
@@ -97,4 +97,4 @@ const edit = ({ pianoList }) => {
 //   };
 // };
 
-export default edit;
+export default Edit;
