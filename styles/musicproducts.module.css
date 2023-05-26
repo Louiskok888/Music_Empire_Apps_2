@@ -1,0 +1,23 @@
+.container {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper :hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}  
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item {
+    padding: 70px;
+    border: 20px;
+    border-color: black;
+    cursor: pointer;
+}

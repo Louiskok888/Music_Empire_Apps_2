@@ -1,0 +1,21 @@
+.container {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item {
+    padding: 70px;
+    border: 20px;
+    border-color: black;
+    cursor: pointer;
+}
+.inst {
+    font-size: 30px;
+}
