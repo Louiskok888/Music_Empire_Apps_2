@@ -18,6 +18,7 @@ const Index = ({ orders, products }) => {
       setPianoList(pianoList.filter((piano) => piano._id !== id));
     } catch (err) {
       console.log(err);
+
     }
   };
 
