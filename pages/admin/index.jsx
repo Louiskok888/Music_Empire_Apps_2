@@ -13,8 +13,7 @@ const Index = ({ orders, products }) => {
   const handleDelete = async (id) => {
     try {
       const res = await axios.delete(
-        "music-empire-apps-2.vercel.app
-/api/products/" + id
+        "https://music-empire-apps-2.vercel.app/api/products/" + id
       );
       setPianoList(pianoList.filter((piano) => piano._id !== id));
     } catch (err) {
@@ -32,8 +31,7 @@ const Index = ({ orders, products }) => {
     const currentStatus = item.status;
 
     try {
-      const res = await axios.put("music-empire-apps-2.vercel.app
-/api/orders/" + id, {
+      const res = await axios.put("https://music-empire-apps-2.vercel.app/api/orders/" + id, {
         status: currentStatus + 1,
       });
       setOrderList([
@@ -156,10 +154,8 @@ export const getServerSideProps = async (ctx) => {
     };
   }
 
-  const productRes = await axios.get("music-empire-apps-2.vercel.app
-/api/products");
-  const orderRes = await axios.get("music-empire-apps-2.vercel.app
-/api/orders");
+  const productRes = await axios.get("https://music-empire-apps-2.vercel.app/api/products");
+  const orderRes = await axios.get("https://music-empire-apps-2.vercel.app/api/orders");
 
   return {
     props: {

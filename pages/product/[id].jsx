@@ -91,8 +91,7 @@ const Product = ({piano}) => {
 };
 
 export const getServerSideProps = async ({params}) => {
-  const res = await axios.get(`music-empire-apps-2.vercel.app
-/api/products/${params.id}`)
+  const res = await axios.get(`https://music-empire-apps-2.vercel.app/api/products/${params.id}`)
     return{
       props:{
         piano:res.data,

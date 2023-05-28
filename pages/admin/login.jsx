@@ -11,8 +11,7 @@ const Login = () => {
 
   const handleClick = async () => {
     try {
-      await axios.post("music-empire-apps-2.vercel.app
-/api/login", {
+      await axios.post("https://music-empire-apps-2.vercel.app/api/login", {
         username,
         password,
       });

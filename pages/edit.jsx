@@ -21,8 +21,7 @@ const Edit = ({ pianoList }) => {
   const handleUpdate = async (id) => {
 
     try {
-      const res = await axios.put("music-empire-apps-2.vercel.app
-/api/products/" + id, {
+      const res = await axios.put("https://music-empire-apps-2.vercel.app/api/products/" + id, {
         _id: id,
         title: title,
         desc: desc,
