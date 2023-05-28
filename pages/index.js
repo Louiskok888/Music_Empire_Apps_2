@@ -44,7 +44,8 @@ export const getServerSideProps = async (ctx) => {
     user = true;
   }
 
-  const res = await axios.get("https://music-empire-apps-2-r5vp8gbn4-louiskok888.vercel.app/api/products");
+  const res = await axios.get("music-empire-apps-2.vercel.app
+/api/products");
   return {
     props: {
       pianoList: res.data,

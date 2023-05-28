@@ -24,7 +24,8 @@ const Cart = () => {
 
   const createOrder = async (data) => {
     try {
-      const res = await axios.post("https://music-empire-apps-2-r5vp8gbn4-louiskok888.vercel.app/api/orders", data);
+      const res = await axios.post("music-empire-apps-2.vercel.app
+/api/orders", data);
       if (res.status === 201) {
         dispatch(reset());
         router.push(`/orders/${res.data._id}`);
