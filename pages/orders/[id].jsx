@@ -114,7 +114,7 @@ const Order = ({order}) => {
 };
 
 export const getServerSideProps = async ({ params }) => {
-  const res = await axios.get(`https://music-empire-apps-2-kpe0r1mfe-louiskok888.vercel.app/api/orders/${params.id}`);
+  const res = await axios.get(`https://music-empire-apps-2-r5vp8gbn4-louiskok888.vercel.app/api/orders/${params.id}`);
   return {
     props: { order: res.data },
   };

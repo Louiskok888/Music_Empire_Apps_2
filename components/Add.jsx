@@ -44,7 +44,7 @@ const Add = ({ setClose }) => {
         img: url,
       };
 
-      await axios.post("https://music-empire-apps-2-kpe0r1mfe-louiskok888.vercel.app/api/products", newProduct);
+      await axios.post("https://music-empire-apps-2-r5vp8gbn4-louiskok888.vercel.app/api/products", newProduct);
       setClose(true);
       Router.push("/")
     } catch (err) {

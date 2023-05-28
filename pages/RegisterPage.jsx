@@ -22,7 +22,7 @@ export default function RegisterPage() {
         password,
       };
 
-      await axios.post("https://music-empire-apps-2-kpe0r1mfe-louiskok888.vercel.app/api/user", newUser);    
+      await axios.post("https://music-empire-apps-2-r5vp8gbn4-louiskok888.vercel.app/api/user", newUser);    
       router.push("/LoginPage")
       alert("Registration successful. Now you can log in");
 
