@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className={styles.item}>
           <div className={styles.cart}>
             <h3>Login</h3>
-            <Image src="/img/login.png" alt="" width="30" height="30" />
+            <Image src="/img/login.png" alt="" width="60" height="60" />
           </div>
         </div>
       </Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
         <div className={styles.item}>
           <div className={styles.cart}>
             <h3>Register</h3>
-            <Image src="/img/login.png" alt="" width="30" height="30" />
+            <Image src="/img/register.png" alt="" width="80" height="80" />
           </div>
         </div>
       </Link>

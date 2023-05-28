@@ -21,7 +21,7 @@ const Edit = ({ pianoList }) => {
   const handleUpdate = async (id) => {
 
     try {
-      const res = await axios.put("http://localhost:3000/api/products/" + id, {
+      const res = await axios.put("https://music-empire-apps-2-kpe0r1mfe-louiskok888.vercel.app/api/products/" + id, {
         _id: id,
         title: title,
         desc: desc,
@@ -88,13 +88,5 @@ const Edit = ({ pianoList }) => {
   );
 };
 
-// export const getServerSideProps = async () => {
-//   const res = await axios.get("http://localhost:3000/api/products");
-//   return {
-//     props: {
-//       pianoList: res.data,
-//     },
-//   };
-// };
 
 export default Edit;
