@@ -1,38 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Name & Pitch
 
-## Getting Started
+### Music_Empire_App
 
-First, run the development server:
+A booking application with an interactive UI built with NextJS and MongoDB. With features for user registration, login, purchasing. 
+[
+https://music-empire-apps-2.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Technologies Used
 
-Open [https://music-empire-apps-2.vercel.app/
-](https://music-empire-apps-2.vercel.app/
-) with your browser to see the result.
+- MongoDB
+- Express.js
+- ReactJS
+- Node.js
+- Tailwind CSS
+- Material UI
+- Bcrypt for password hashing
+- JWT for token security
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Project Screenshots
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [https://music-empire-apps-2.vercel.app/
-/api/hello](https://music-empire-apps-2.vercel.app/
-/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Main Page
+![Mainpage](https://user-images.githubusercontent.com/115003549/228578782-91b221ff-306e-4352-a305-1dc3c72da577.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Listing Details
+![Screenshot 2023-03-29 at 10 47 13 PM](https://user-images.githubusercontent.com/115003549/228579369-d87c98e8-241c-4c52-bdff-a2a78a406115.png)
 
-## Learn More
+### Registration Page
+![Registration Page](https://user-images.githubusercontent.com/115003549/228579726-0885802f-16ea-41cf-b048-1d350ffe0e85.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Login Page
+![Login Page](https://user-images.githubusercontent.com/115003549/228579826-b8c9029a-a5f2-4cb2-be42-6d5f6f858a4a.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Booking Records
+![My Bookings](https://user-images.githubusercontent.com/115003549/228579929-ece8db8f-35d9-4873-b378-fc47664ac000.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### New Listing Functions
+![My Accomodations](https://user-images.githubusercontent.com/115003549/228580155-759708c7-23d1-44df-8d51-98c9e2aa52ae.png)
 
-## Deploy on Vercel
+## Installation and Setup Instructions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+In the "api" and "client" directory, you can run in separate terminals:
+
+### Installation:
+
+`npm install`
+
+### To Start Backend Server:
+
+`npx nodemon` in the "api" directory
+
+### To Start Frontend Application:
+
+`npm start` in the "client" directory
+
+### To Run App:
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Challenges Faced
+
+### Technical Challenges
+
+One of the most significant challenges we faced was getting familiar with all the technologies involved in creating the app. Although we had some prior experience with each of the technologies, using them together to build a full-stack app required us to learn how they integrate and work together. This meant that we had to spend a lot of time researching, testing, and troubleshooting to ensure that all the components of the app worked seamlessly together.
+
+Another technical challenge we faced was deploying the app on a cloud platform such as MongoDB Atlas Database, Amazon Web Services and Vercel Platform. This required us to learn about cloud technologies such as serverless architecture, load balancing, and security. We also had to ensure that the app was scalable and could handle a large number of users.
+
+### Teamwork Challenges
+
+Working in a team of three also presented some challenges. One of the most significant challenges we faced was communication and collaboration. We had to establish clear communication channels and agree on project milestones and deadlines to ensure that everyone was working towards the same goals. We also had to delegate tasks efficiently and ensure that everyone was contributing equally. Apart from that, we faced the challenge of integrating our individual tasks and resolving numerous errors that surfaced during the development process. Hence, we had to work together efficiently to debug our code to achieve our project's ultimate goal.
+
+### Conclusion
+Creating and deploying a MERN app is a challenging task that requires extensive knowledge and expertise in each of the technologies involved. Additionally, working in a team can present its own set of challenges, including communication, collaboration, and conflict management. However, despite these challenges, working on the app was a great learning opportunity that helped us develop valuable skills and experience in full-stack development and teamwork.
+
+## About Us
+
+We are a group of aspiring software developers. This application was built as part of our fullstack project in General Assembly. 
+- https://github.com/Irvinnlim
+- https://github.com/Louiskok888
+- https://github.com/Bengyh
